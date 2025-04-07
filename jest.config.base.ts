@@ -6,5 +6,8 @@ export const baseJestConfig: Config.InitialOptions = {
   'coverageDirectory': 'coverage',
   'testMatch': [
     '**/*.test.(ts|tsx)'
+  ],
+  'setupFiles': [
+    './setupTests.ts'
   ]
 }
